@@ -1,0 +1,23 @@
+{
+  "name": "jc-icons",
+  "version": "0.0.1",
+  "main": "index.js",
+  "keywords": [
+    "vue",
+    "icons"
+  ],
+  "author": {
+    "name": "jcLee1995",
+    "email": "291148484@163.com",
+    "url": "https://github.com/jacklee1995"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jacklee1995/jc-icons-vue",
+  "description": "This is an icon library for Vue framework, in which all font icons are drawn by the library author himself.",
+  "peerDependencies": {
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
