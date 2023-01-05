@@ -21,8 +21,17 @@ yarn add jc-icons-vue
 pnpm install jc-icons-vue
 ```
 
+# All Icons
+
+
+![jc-icons-1](./jc-icons_1.jpg)
+
+![jc-icons-2](./jc-icons_2.jpg)
+
+
 # Usage
 
+## global register
 ```ts
 // mian.ts
 import { createApp } from 'vue';
@@ -38,6 +47,25 @@ function bootstrap() {
 
 bootstrap();
 ```
+
+## use icons
+
+You can specify the icon to use by giving the value of the name attribute, and the icon name does not need to use the prefix `jcicon-` .
+
+```html
+<jc-icon name="action-restore"></jc-icon>
+<jc-icon name="action-undo"></jc-icon>
+<jc-icon name="address-book"></jc-icon>
+<jc-icon name="address-book-color"></jc-icon>
+<jc-icon name="align-center"></jc-icon>
+<jc-icon name="align-center-color"></jc-icon>
+<jc-icon name="align-justify-color"></jc-icon>
+<jc-icon name="align-left"></jc-icon>
+<jc-icon name="align-left-color"></jc-icon>
+<jc-icon name="align-right"></jc-icon>
+<jc-icon name="align-right-color"></jc-icon>
+```
+
 
 # About the copyright of some icons
 
